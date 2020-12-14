@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <img src="frontend/images/logo_dapur_kenangan.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Service
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button -->
+                <form action="" class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Login
+                    </button>
+                </form>
+
+                <!-- Dekstop Button -->
+                <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Login
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Header -->
+    <header class="text-center">
+        <h1>Your Memories of your favorite<br> childhood foods</h1>
+        <p>Get food that makes you happier</p>
+    </header>
+
+    <!-- Main -->
+
+    <!-- Section Info -->
+    <section class="section-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 catering-description">
+                    <h3>Catering</h3>
+                    <hr>
+                    <p>Karakteristik yang pertama bahwa masing-masing organisasi memiliki tujuan-tujuan tertentu. Secara umum tujuan organisasi adalah mencapai tingkat keuntungan, dan mengejar pertumbuhan.</p>
+                </div>
+                <div class="col-lg-4 col-md-5 card-catering">
+                    <img src="frontend/images/pic.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-4 col-md-5 card-catering">
+                    <img src="frontend/images/pic-2.jpg" alt="" class="img-fluid">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <h1>Our Services</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Panel -->
+    <section class="info-panel">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 info-panel-content">
+                    <div class="row">
+                        <div class="col-lg ">
+                            <img src="frontend/images/delivery-man.png" alt="" class="service-icon float-left ">
+                            <h4 class="info-panel-desc ">Free Delivery</h4>
+                        </div>
+                        <div class="col-lg ">
+                            <img src="frontend/images/food.png" alt="" class="service-icon float-left">
+                            <h4 class="info-panel-desc ">Higienis Foods</h4>
+                        </div>
+                        <div class="col-lg">
+                            <img src="frontend/images/customer-support.png" alt="" class="service-icon float-left">
+                            <h4 class="info-panel-desc ">24 Hours Open</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- product -->
+    <section class="best-product">
+        <div class="container">
+            <h1>Best of the day</h1>
+            <div class="row best-info-content  ">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-1.jpeg" class="card-img-top " alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Pizza</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="detail.html" class="btn btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-2.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Lumpia</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="#" class="btn btn-block btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-3.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ayam Geprek</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="#" class="btn btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-4.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mie Ayam Bakso</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="#" class="btn btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-5.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Bakso Sapi</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="#" class="btn btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-6.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mie Ayam</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="#" class="btn btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-7.jpeg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Nasi Goreng</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="#" class="btn btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card card-product">
+                        <div class="inner">
+                            <img src="frontend/images/pic-8.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Burger</h5>
+                            <p class="card-text">Some quick example text to build on </p>
+                            <a href="#" class="btn btn-see-more">See more</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- why us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="row heading-info text-center justify-content-center">
+                <div class="col">
+                    <h1>Why Us</h1>
+                    <p>you will fill like in your home and enjoy</p>
+                </div>
+            </div>
+            <div class="row why-us-content mt-5">
+                <div class="col-lg-4">
+                    <div class="row ml-1">
+                        <img src="frontend/images/agreement.png" alt="" class="img-why-us float-left">
+                        <p class="why-us-text">Experience<br> In Culinary</p>
+                    </div>
+                    <div class="row">
+                        <div class="col why-us-description">
+                            <p>Karakteristik yang pertama bahwa masing-masing organisasi memiliki tujuan-tujuan tertentu. Secara umum tujuan organisasi adalah mencapai tingkat keuntungan, dan mengejar pertumbuhan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row m-1">
+                        <img src="frontend/images/certified.png" alt="" class="img-why-us float-left">
+                        <p class="why-us-text">Halal <br>Certified</p>
+                    </div>
+                    <div class="row">
+                        <div class="col why-us-description">
+                            <p>Karakteristik yang pertama bahwa masing-masing organisasi memiliki tujuan-tujuan tertentu. Secara umum tujuan organisasi adalah mencapai tingkat keuntungan, dan mengejar pertumbuhan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row m-1">
+                        <img src="frontend/images/business.png" alt="" class="img-why-us float-left">
+                        <p class="why-us-text">Friendly <br> Services</p>
+                    </div>
+                    <div class="row">
+                        <div class="col why-us-description">
+                            <p>Karakteristik yang pertama bahwa masing-masing organisasi memiliki tujuan-tujuan tertentu. Secara umum tujuan organisasi adalah mencapai tingkat keuntungan, dan mengejar pertumbuhan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col">
+                    <h1>Hear Our Customers Say</h1>
+                    <p>Some quick example text to build on</p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center">
+                <div class="col testi-content">
+                    <p>" Makanannya enak dan harganya terjangkau, ayam bakar madunya ngangenin"</p>
+                </div>
+            </div>
+            <div class="row justify-content-center text-center testi-people">
+                <div class="col">
+                    <figure class="figure">
+                        <img src="frontend/images/toni.jpg" class="figure-img img-fluid rounded-circle img-testi" alt="...">
+                        <figcaption class="figure-caption testi-name">Ruston Efendi</figcaption>
+                        <p class="testi-status">Mahasiswa</p>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- akhir main -->
+
+    <!-- footer -->
+    <footer class="section-footer">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Review</a></li>
+                                <li><a href="">Community</a></li>
+                                <li><a href="">Help</a></li>
+                                <li><a href="">Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>SUPPORT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Donasi</a></li>
+                                <li><a href="">Event</a></li>
+                                <li><a href="">Refund</a></li>
+                                <li><a href="">Security</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>OFFICE</h5>
+                            <ul class="list-unstyled">
+                                <li>Jalan Pangeran Diponegoro</li>
+                                <li>No. 5B Jakarta Barat</li>
+                                <li>Telp. 021-223-456</li>
+                                <li>dapur-kenangan@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>SOCIAL MEDIA</h5>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-3"><img src="frontend/images/ig.png" alt="">&nbsp; Instagram</li>
+                                <li><img src="frontend/images/fb.png" alt="">&nbsp; Facebook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center pt-3 pb-4">
+                <div class="col-auto text-gray font-weight-light disclaimer">
+                    &copy; Dapur Kenangan 2020 Made by Ruston Efendi
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

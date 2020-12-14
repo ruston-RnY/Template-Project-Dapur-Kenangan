@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="#">
+                <img src="frontend/images/logo_dapur_kenangan.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Service
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+                <!-- Mobile Button -->
+                <form action="" class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Get Started
+                    </button>
+                </form>
+
+                <!-- Dekstop Button -->
+                <form action="" class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Get Started
+                    </button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Main -->
+    <section class="section-detail pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col section-detail-header">
+                    <h2>Product / <span>Details</span> </h2>
+                </div>
+            </div>
+
+            <div class="card card-detail">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="gallery">
+                            <div class="xzoom-container">
+                                <img src="frontend/images/pic-2.jpeg" class="xzoom" id="xzoom-default" xoriginal="frontend/images/pic-2.jpeg">
+                            </div>
+                            <div class="xzoom-thumbs">
+                                <a href="frontend/images/pic-2.jpeg">
+                                    <img src="frontend/images/pic-2.jpeg" class="xzoom-gallery" width="115" xpreview="frontend/images/pic-2.jpeg">
+                                </a>
+                                <a href="frontend/images/pic-3.jpeg">
+                                    <img src="frontend/images/pic-3.jpeg" class="xzoom-gallery" width="115" xpreview="frontend/images/pic-3.jpeg">
+                                </a>
+                                <a href="frontend/images/pic-4.jpeg">
+                                    <img src="frontend/images/pic-4.jpeg" class="xzoom-gallery" width="115" xpreview="frontend/images/pic-4.jpeg">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Informations</h2>
+                        <hr>
+                        <div class="row mb-3">
+                            <div class="col">
+                                <h4>Rp. 20.000</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p>Karakteristik yang pertama bahwa masing-masing organisasi memilikitujuan-tujuan tertentu. Secara umum tujuan organisasi adalahmencapai tingkat keuntungan, dan mengejar pertumbuhan.</p>
+                            </div>
+                        </div>
+                        <div class="pesan mb-5">
+                            <div class="form-group">
+                                <label for="">Jumlah Pesan</label>
+                                <input type="number" name="" id="" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Keterangan</label>
+                                <textarea name="" id="" cols="" rows="3" class="form-control" placeholder="contoh : pedas, nasi dikit aja"></textarea>
+                            </div>
+                            <a href="checkout.html" class="btn btn-order-now float-right">Pesan</a>
+                        </div>
+                        <div class="note">
+                            <h5 class="mt-5 mb-0">Note</h5>
+                            <p class="text-muted noted"><i>If you don't choose, we will send randomly</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- akhir main -->
+
+    <!-- footer -->
+    <footer class="section-footer">
+        <div class="container pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-lg-3">
+                            <h5>FEATURES</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Review</a></li>
+                                <li><a href="">Community</a></li>
+                                <li><a href="">Help</a></li>
+                                <li><a href="">Affiliate</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>SUPPORT</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="">Donasi</a></li>
+                                <li><a href="">Event</a></li>
+                                <li><a href="">Refund</a></li>
+                                <li><a href="">Security</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>OFFICE</h5>
+                            <ul class="list-unstyled">
+                                <li>Jalan Pangeran Diponegoro</li>
+                                <li>No. 5B Jakarta Barat</li>
+                                <li>Telp. 021-223-456</li>
+                                <li>dapur-kenangan@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <h5>SOCIAL MEDIA</h5>
+                            <ul class="list-unstyled mt-3">
+                                <li class="mb-3"><img src="frontend/images/ig.png" alt="">&nbsp; Instagram</li>
+                                <li><img src="frontend/images/fb.png" alt="">&nbsp; Facebook</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center pt-3 pb-4">
+                <div class="col-auto text-gray font-weight-light disclaimer">
+                    &copy; Dapur Kenangan 2020 Made by Ruston Efendi
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.5.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.xzoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: '#333',
+                Xoffset: 15
+            });
+        });
+    </script>
+</body>
+
+</html>
